@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="content">
+        <div id="question-container" class="centered">
+            <p id="question">Will you be my Valentine?</p>
+            <img src="https://media.tenor.com/R9L9sdf3VVsAAAAC/milk-and-mocha-hugs.gif" alt="Hugging Bears" class="question-gif">
+            <div>
+                <button id="yes-btn" class="btn">Yes</button>
+                <button id="no-btn" class="btn">No</button>
+            </div>
+        </div>
+        <div id="gift-container" class="centered" style="display:none;">
+            <p>What will you give me as a gift for Valentine?</p>
+            <input type="text" id="gift-answer">
+            <div id="submit-gift" class="btn">Submit</div>
+        </div>
+        <div id="response-container" class="centered" style="display:none;">
+            <img src="https://cdn3.emoji.gg/emojis/7163-milk3.gif" alt="Milk GIF">
+            <p id="gift-response"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

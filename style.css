@@ -1,0 +1,63 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc0cb; /* Lighter pink background */
+  font-family: "Cursive", sans-serif; /* Placeholder for a fancier font */
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Include the previous styles here */
+
+#question,
+.btn,
+#gift-response {
+  font-family: "Great Vibes", cursive;
+  font-size: 24px; /* Or any size you prefer */
+}
+
+.question-gif {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Center the gif */
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #ff69b4; /* Hot pink */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em; /* Larger font size */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff1493; /* Deeper pink */
+  transform: scale(1.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ff69b4;
+  font-size: 1em; /* Adjust if necessary */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
